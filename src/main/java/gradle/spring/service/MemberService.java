@@ -2,6 +2,8 @@ package gradle.spring.service;
 
 import gradle.spring.domain.Member;
 import gradle.spring.repository.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
